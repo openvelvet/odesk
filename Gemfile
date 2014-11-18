@@ -15,6 +15,9 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem "paperclip", "~> 4.2"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-linkedin'
 
 group :production do 
 	gem 'pg'
